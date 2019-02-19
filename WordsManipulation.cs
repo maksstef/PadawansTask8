@@ -9,11 +9,11 @@ namespace PadawansTask8
         {
             if(text == null)
             {
-                throw new ArgumentException();
+                throw new ArgumentNullException();
             }
             else if(text.Length == 0)
             {
-                throw new ArgumentNullException();
+                throw new ArgumentException();
             }
             else
             {
